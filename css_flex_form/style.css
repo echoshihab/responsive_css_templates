@@ -1,0 +1,59 @@
+/* with height attribute added, alignt-items can position  help position container items vertically */
+
+.container {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.form {
+	background-color: #82CAFA;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #dddddd;
+	padding: 40px;
+	border-radius: 10%;
+	justify-content: center;
+}
+
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+input {
+	width: 100%;
+	background-color: #82CAFA;
+	border: 1px solid white;
+}
+
+input:focus {
+	border: 1px solid black;
+}
+
+.login {
+	margin-top: 5px;
+}
+
+button {
+	color: white;
+	background-color: #82CAFA;;
+	padding: 2px;
+	width: 4em;
+	border: 1px solid white;
+	box-shadow: 0px 2px 0px;
+}
+
+button:hover {
+	color: black;
+	border: 1px solid black;
+}
