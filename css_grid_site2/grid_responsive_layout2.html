@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS GRID site 2</title>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -13,10 +15,10 @@
   	
   	<nav class="nav">
   		<ul>
-  			<li> <a class="navitem" href=""> Home </a> </li>
-  			<li> <a class="navitem" href=""> Newsletter </a> </li>
-  			<li> <a class="navitem" href=""> Careers </a> </li>
-  			<li> <a class="navitem" href=""> Contact Us </a> </li>
+  			<li class="navitem"> <a  href=""> Home </a> </li>
+  			<li class="navitem"> <a  href=""> Newsletter </a> </li>
+  			<li class="navitem"> <a  href=""> Careers </a> </li>
+  			<li class="navitem"> <a  href=""> Contact Us </a> </li>
 
   		</ul>
 
@@ -48,16 +50,30 @@
 
 	<div class="mid-3"> 
 		<h2> London X-ray Associates </h2>
-		<input type="text" placeholder="How can we help?" ></div>
+		<input type="text" placeholder="How can we help?" > <button class="help"><i class="material-icons">
+find_in_page
+</i></button> </div>
 	
 	<div class="bottom-boxes">   <!-- bottom boxes start-->
 
 			<div class="bottom-box">
-	  			Recent News
+	  			<h3>Recent News </h3>
+	  			<ul>
+	  				<li><a href="#">New OB Clinic starting June 01, 2019</a> </li>
+	  				<li><a href="#">Bradley Clinic Renovation</a> </li>
+	  				<li><a href="#">New Patient Kiosk at Central</a> </li>
+	  				<li><a href="#">Free WIFI at all sites </a> </li>
+	  			</ul>
 	  		</div>
 	  		
 	  		<div class="bottom-box">
-	  			Events
+	  			<h3>Events </h3>
+	  			<ul>
+	  				<li><a href="#">Maternal Fetal Medicine Symposium</a> </li>
+	  				<li><a href="#">Career Event at LXA</a> </li>
+	  				<li><a href="#">CPR/First Aid training at Central</a> </li>
+
+	  			</ul>
 
 	  		</div>
 
@@ -66,7 +82,7 @@
 
 
 	<div class="footer-5">
-		<a href="#"> Privacy Policy </a>
+		<a href="#"> Privacy Policy </a> |
 		<a href="#"> Terms & Condition </a>
 
 
