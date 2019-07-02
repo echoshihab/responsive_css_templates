@@ -18,7 +18,7 @@ main {
 	background: #000000;
 	background-size: cover;
 	display: grid;
-	grid-template-rows: repeat(7,1fr)
+	grid-template-rows: repeat(8,1fr);
 
       }
 
@@ -27,21 +27,25 @@ main {
 header {
 	background: #03a9f4;
 
+
 }
 
 
 
 .banner {
 	background: #d22b1f;
+
 }
 
 .main_text {
-	background: #129a22;;
+	background: #129a22;
+
 }
 
 
 .side_text {
 	background: #673ab7;
+
 }
 
 
@@ -67,6 +71,7 @@ header {
 footer {
 	border: 1px solid #000000;
 	background: #616161;
+
 }
 
 
