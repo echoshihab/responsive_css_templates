@@ -1,0 +1,128 @@
+/* Typography imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', serif;
+}
+
+p, a {
+  font-family: 'DM Serif Display', sans-serif;
+}
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  background-color: #4D4444;
+  text-decoration: none;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+/* Styles for the hero image */
+.banner {
+  /* Photo by mnm.all on Unsplash */
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ), 
+  url('https://images.pexels.com/photos/2182972/pexels-photo-2182972.jpeg?cs=srgb&dl=doctor-explaining-explanation-2182972.jpg&fm=jpg') center;
+ 
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.banner  > * {
+  color: white;
+}
+
+.banner > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.banner > article > p {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.banner > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+}
+
+
+.maincards {
+  padding: 2rem;
+ 
+}
+
+
+.maincards > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.maincards > ul > li {
+  border: 3px solid #E2E2E2;
+  border-radius: .5rem;
+  list-style: none;
+}
+
+.maincards > ul > li > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.maincards > ul > li > figure > img {
+  width: 100%;
+}
+
+.maincards > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+
+.maincards > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+.maincards > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+  color: #666666;
+}
+
+.maincards > ul > li > a {
+  padding: .5rem 1rem;
+  margin: .5rem ;
+}
+
+
+footer {
+  background-color: #333;
+  padding: .75rem;
+  color: white;
+  text-align: center;
+  font-size: .75rem;
+}
